@@ -1,0 +1,10 @@
+#main_div { position: relative; background: #000; cursor: none; overflow: hidden;}
+	#menu_div { width: 100%; height: 100%;}
+		#menu_div h1 { text-align: center; color: #eea; text-shadow: 1px 1px 3px #c55;}
+		#menu_div p { height: 100px; line-height: 100px; text-align: center; font-size: 32px; color: #eea; text-shadow: 1px 1px 3px #c55; animation: title_color 0.3s infinite alternate;}
+
+@keyframes title_color
+{
+	0%		{ color: #eea;}
+	100%	{ color: #bb7;}
+}

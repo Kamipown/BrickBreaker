@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900);
+
+html { height: 100%;}
+body { height: 100%; margin: 0px; background: #002; font-size: 0px; color: #eee;}
+h1, h2, h3, h4, h5, h6 { margin: 0px; font-family: Orbitron; font-weight: 900;}
+p { margin: 0px; font-family: Orbitron; font-weight: 900;}
