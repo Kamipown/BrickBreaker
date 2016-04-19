@@ -46,5 +46,10 @@ var Ui =
 	hide_menu: function()
 	{
 		this.menu_div.style.display = "none";
+	},
+
+	display_menu: function()
+	{
+		this.menu_div.style.display = "block";
 	}
 }
