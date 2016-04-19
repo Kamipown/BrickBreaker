@@ -3,6 +3,11 @@
 		#menu_div h1 { text-align: center; color: #eea; text-shadow: 1px 1px 3px #c55;}
 		#menu_div p { height: 100px; line-height: 100px; text-align: center; font-size: 32px; color: #eea; text-shadow: 1px 1px 3px #c55; animation: title_color 0.3s infinite alternate;}
 
+	#game_div { display: block; position: relative; width: 100%; height: 100%;}
+		#game_div .brick { display: block; position: absolute; height: 50px; outline: 0px 0px 1px #000;}
+		#game_div .brick.red { background: #f00; border-top: 3px solid #f55; border-bottom: 3px solid #a00; border-left: 3px solid #c00; border-right: 3px solid #c00;}
+
+
 @keyframes title_color
 {
 	0%		{ color: #eea;}
